@@ -43,8 +43,8 @@ describe('index', () => {
   })
 
   describe('#doCharity', function() {
-    it('returns "I like the help people."', function() {
-      expect(lyndonJohnson.doCharity()).toEqual("I like the help people.")
+    it('returns "I like to help people."', function() {
+      expect(lyndonJohnson.doCharity()).toEqual("I like to help people.")
     })
   })
 
